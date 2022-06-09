@@ -5,7 +5,7 @@ $('[data-toggle="collapsible-nav"]').on('click', function (e) {
 
 $('.btn-share').on('click', function (e) {
     // copy website link to clipboard
-    navigator.clipboard.writeText("website url");
+    navigator.clipboard.writeText("https://maherserjio.github.io/Website/");
 
     // Get the snackbar DIV
     var x = document.getElementById("snackbar");
