@@ -17,7 +17,10 @@ $('.btn-share').on('click', function (e) {
     setTimeout(function () { x.className = x.className.replace("show", ""); }, 3000);
 });
 
+$('#figure-1').on('click', function (e) {
+    window.open('https://maher-s.web.app', '_blank')
 
+});
 $('#figure-2').on('click', function (e) {
     window.open('https://portfolio-natours.firebaseapp.com', '_blank')
 
